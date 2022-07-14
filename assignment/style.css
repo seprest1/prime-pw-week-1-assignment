@@ -7,10 +7,17 @@
 
 body {
     background-color: #f7f1ef;
+    margin: 0;
 }
 
 header {
     background-color: white;
+    position: fixed;
+    top: 0;
+    width:100%;
+    border-bottom-style:solid;
+    border-bottom-color: rgb(207, 205, 205);
+    border-bottom-width: 2px;
 }
 
 h1 { 
@@ -30,7 +37,7 @@ ul{
     text-align: right justify;
     list-style: none;
     margin: 20px 50px;
-    padding: 50px;
+    padding: 50px 250px;
 }
 
 footer {
@@ -45,14 +52,16 @@ p {
     text-align: center;
     letter-spacing: 2px;
     margin: 20px 50px;
-    padding: 10px;
+    padding: 20px 100px;
+    
 }
 
-img { 
+.responsive { 
     display: block;
-    margin: 50px 0px 0px;
+    margin-top: 120px;
+    padding: 0px;
     width: 100%;
+    height: 50%;
     border: 0.5px solid rgb(201, 86, 80);
     border-radius: 5px;
-   
-
+}
